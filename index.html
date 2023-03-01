@@ -5,18 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@200;300;400;500;600;700;900&family=Outfit:wght@700&family=Saira:wght@300;400;500;600&display=swap" rel="stylesheet">
 <link rel='stylesheet' id='mork-main-style-css' href='style.css' media='all' />
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
 <link rel='stylesheet' id='mork-style-css' href='https://moerk.de/wp-content/themes/mork/style.css' media='all' />
 <link rel='stylesheet' id='mork-custom-style-css' href='https://moerk.de/wp-content/themes/mork/styles/moerkDmCustom.css' media='all' />
-  
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body id="main-content" class="home page-template-default page page-id-8" data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
-<header class="header is-subheader">
-
+<header class="header is-subheader ">
 </header>
-<div class="scrollable">    
+<div class="scrollable"> 
         <div id="fullpage">
-            <div data-anchor="slider" class="section section-slider">
+            <div data-anchor="first-screen" class="section home-screen">
+                <div class="home-screen__image" style="background-image: url(/images/Anker-Hero-Image.png)">
+                    <div class="home-screen__content d-flex">
+                        <div>
+                            <h2 id="demo">Guten Morgen!</h2>
+                            <p>Herzlich Willkommen bei Ihrem <br> zuverlässigen Partner für Architektur,<br> Bau und Immobilien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+           <div data-anchor="slider" class="section section-slider">
                 <div class="d-xl-block d-lg-block d-none">
                     <div class="home-slider__item-content home-slider__item-content--fixed">
                         <div class="home-slider__numbers">
@@ -211,49 +223,237 @@
                                             <g mask="url(#mask0_1171_538)">
                                             <path d="M11.4001 18.9696L10.0939 17.6863L15.2272 12.5529H4.06677V10.7196H15.2272L10.0939 5.58625L11.4001 4.30292L18.7334 11.6363L11.4001 18.9696Z" fill="#14758D"/>
                                             </g>
-                                        </svg>                                    </a>
+                                        </svg>                 section--simple                   </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-				</div>
+			</div>
         
-                <div data-anchor="videoblock" class="section section--simple section-top-arbeitgeber">
-                    <div class="section__container d-md-block aos-init aos-animate" data-aos="fade-up" style="margin: auto;">
-                        <div class="col-12 col-lg-12">
-                            <div data-aos="fade-up" class="section__column section__title aos-init aos-animate">
-                                <h2 class="style-scope ytd-watch-metadata" style="font-weight: bold;margin-top: 1rem;">MÖRK – Ihr Spezialist für Architektur, Bau und Unternehmen</h2>
+            <div id="clients"  class="section  section--simple section-top-arbeitgeber">
+                <div class="container-fluid div-container">
+                  <div class="row text-align-">
+                    <div class="single-image" data-wow-delay="0.3s">
+                      <div class="client-item-wrapper">
+                        <img class="img-fluid" src="/images/Logo-1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="single-image" data-wow-delay="0.6s">
+                      <div class="client-item-wrapper">
+                        <img class="img-fluid" src="/images/Logo-2.png" alt="">
+                      </div>
+                    </div>
+                    <div class="single-image" data-wow-delay="0.9s">
+                      <div class="client-item-wrapper">
+                        <img class="img-fluid" src="/images/Logo-3.png" alt="">
+                      </div>
+                    </div>
+                    <div class="single-image" data-wow-delay="1.2s">
+                      <div class="client-item-wrapper">
+                        <img class="img-fluid"  src="/images/Logo-4.png" alt="">
+                      </div>
+                    </div>
+                    <div class="single-image" data-wow-delay="1.2s">
+                      <div class="client-item-wrapper">
+                        <img class="img-fluid"  src="/images/Logo-5.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container-fluid faq-container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="faq-heading">
+                                <h2>Häufig gestellte Fragen</h2>
                             </div>
-                        </div>
-                
-                        <div class="d-lg-flex aos-init aos-animate" data-aos="fade-up">
-                            
-                            <div class="col-12 col-lg-6">
-                                
-                                <div data-aos="fade-up" class="section__text aos-init aos-animate">
-                                    <div class="section__text-content">
-                                        <p>Hindernisse überwinden, durch gefährliche Häuserschluchten springen und über hohe Mauern klettern – das ist Parkour. Manchmal geht es Ihnen beim Planen und Bauen ähnlich. Von der ersten Idee bis zur Schlüsselübergabe warten Herausforderungen.</p>
-                                        <p>Daher ist es gut, einen Begleiter zu haben.</p>
-                                        <p>Sehen Sie sich jetzt unseren neuen Unternehmensfilm an. </p>
+                            <div class="accordion container-fluid">
+                                <div class="accordion-text">  
+                                <ul class="faq-text">
+                                  <li>
+                                    <div class="question-arrow">
+                                      <span class="question">Welche Dienstleistungen bietet Anker Construction an?</span>
+                                      <i class='bx bx-plus arrow'></i>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="section-video__wrap">
-                                    <div style="position: relative;">
-                                        <div class="BorlabsCookie _brlbs-cb-youtube"><div class="_brlbs-content-blocker"> <div class="_brlbs-embed _brlbs-video-youtube"> <img class="_brlbs-thumbnail" src="https://moerk.de/wp-content/plugins/borlabs-cookie/assets/images/cb-no-thumbnail.png" alt="YouTube"> <div class="_brlbs-caption"> <p>Mit dem Laden des Videos akzeptieren Sie die Datenschutzerklärung von YouTube.<br><a href="https://policies.google.com/privacy" target="_blank" rel="nofollow noopener noreferrer">Mehr erfahren</a></p> <p><a class="_brlbs-btn _brlbs-icon-play-white" href="#" data-borlabs-cookie-unblock role="button">Video laden</a></p> <p><label><input type="checkbox" name="unblockAll" value="1" checked> <small>YouTube immer entsperren</small></label></p> </div> </div> </div><div class="borlabs-hide" data-borlabs-cookie-type="content-blocker" data-borlabs-cookie-id="youtube"><script type="text/template">PGlmcmFtZSB3aWR0aD0iMTAwJSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLW5vY29va2llLmNvbS9lbWJlZC9HZXM2aDJkYzRyMCIgc3R5bGU9ImFzcGVjdC1yYXRpbzogMTYvOTttaW4taGVpZ2h0OiAxcHg7bWF4LXdpZHRoOiAxMDAlOyI+PC9pZnJhbWU+</script></div></div>
+                                    <p>Anker Construction bietet eine Reihe von Bauleistungen an, einschließlich Neubau, Renovierung, Umbau und Projektmanagement.</p>
+                                    <span class="line"></span>
+                                  </li>
+                                  <li>
+                                    <div class="question-arrow">
+                                      <span class="question">Wie lange ist Anker Construction bereits im Geschäft?</span>
+                                      <i class='bx bx-plus arrow'></i>
                                     </div>
+                                    <p>JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive</p>
+                                    <span class="line"></span>
+                                  </li>
+                                  <li>
+                                    <div class="question-arrow">
+                                      <span class="question">Wie lange ist Anker Construction bereits im Geschäft?</span>
+                                      <i class='bx bx-plus arrow'></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, necessitatibus.</p>
+                                    <span class="line"></span>
+                                  </li>
+                                  <li>
+                                    <div class="question-arrow">
+                                      <span class="question">Wie lange ist Anker Construction bereits im Geschäft?</span>
+                                      <i class='bx bx-plus arrow'></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, labore.</p>
+                                    <span class="line"></span>
+                                  </li>
+                                  <li>
+                                    <div class="question-arrow">
+                                      <span class="question">Wie lange ist Anker Construction bereits im Geschäft?</span>
+                                      <i class='bx bx-plus arrow'></i>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, repudiandae!</p>
+                                    <span class="line"></span>
+                                  </li>
+                                </ul>
                                 </div>
-                            </div>
+                              </div>                          
                         </div>
                     </div>
                 </div>
-            </div>    
+
+              
+                <!-- <div class="container-fluid cta-container">
+                    <div class="row">
+                        <div class="cta-div">
+                        <div class="cta-heading">
+                            <h2>Bereit, Ihr Traumprojekt zu bauen?</h2>
+                        </div>
+                        <div class="cta-icon">
+                            <a href="#" class="box-btn">Kontaktieren sie uns<span><i class='bx bx-right-arrow-alt arrow'></i></span></a>
+                        </div>
+                        </div>
+                    </div>
+                </div> -->
+              
+            
+            </div> 
+            
+        <div class="section  section--simple section-top-arbeitgeber">
+            <div class="container-fluid cta-container">
+                <div class="row">
+                    <div class="cta-div">
+                    <div class="cta-heading">
+                        <h2>Bereit, Ihr Traumprojekt zu bauen?</h2>
+                    </div>
+                    <div class="cta-icon">
+                        <a href="#" class="box-btn">Kontaktieren sie uns<span><i class='bx bx-right-arrow-alt arrow'></i></span></a>
+                    </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="container-fluid footer-container">
+                <div class="row">
+                <div class="footer-div">
+                   <div class="col-lg-3 col-md-6">
+                      <div class="single-footer footer-logo">
+                         <img src="/images/Logo.png" alt="">
+                         <div class="row copyright">
+                            <div class="">
+                               <p>&copy; Copyright 2023 Anker. Alle Rechte vorbehalten.</p>
+                            </div>
+                            <div class="social-icon">
+                               <ul>
+                                  <li><a href="#"><i class='bx bxl-facebook-circle' ></i></a></li>
+                                  <li><a href="#"><i class='bx bxl-linkedin' ></i></a></li>
+                                  <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+                                  <li><a href="#"><i class='bx bxl-youtube' ></i></a></li>
+                                  <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+                               </ul>
+                            </div>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                      <div class="single-footer">
+                         <h4>Hauptsitz</h4>
+                         <ul>
+                            <li><a href="#">Max Mustermann</a></li>
+                            <li><a href="#">MusterstraBe 1</a></li>
+                            <li><a href="#">12345 Musterstadt</a></li>
+                            <li><a href="#">Deuschland</a></li>
+                         </ul>
+                         <h4 class="footer-heading">Contact</h4>
+                         <ul>
+                            <li><a href="#">(434) 546-4356</a></li>
+                            <li><a href="#">contact@lift.agency</a></li>
+                         </ul>
+                      </div>
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                      <div class="single-footer">
+                         <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Partnars</a></li>
+                         </ul>
+                      </div>
+                   </div>
+                   <div class="col-lg-3 col-md-6">
+                      <div class="single-footer contact-box">
+                         <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Coockies Policy</a></li>
+                         </ul>
+                      </div>
+                   </div>
+                </div>
+                </div>
+             </div>
         </div>
+        
+    
+  
+                  
+        </div>    
 </div>
 	
 <script src='script.js' id=''></script>
+<script>
+    let li = document.querySelectorAll(".faq-text li");
+    for (var i = 0; i < li.length; i++) {
+      li[i].addEventListener("click", (e)=>{
+        let clickedLi;
+        if(e.target.classList.contains("question-arrow")){
+          clickedLi = e.target.parentElement;
+        }else{
+          clickedLi = e.target.parentElement.parentElement;
+        }
+       clickedLi.classList.toggle("showAnswer");
+      });
+    }
+</script>
+
+<script>
+    const time = new Date().getHours();
+    let greeting;
+    if (time < 4) {
+      greeting = "Gute Nacht!";
+    } else if (time < 12) {
+      greeting = "Guten Morgen!";
+    } else if (time < 16) {
+      greeting = "Guten Tag!";
+    }else if (time < 20) {
+      greeting = "Guten Abend!";
+    }else {
+      greeting = "Gute Nacht!";
+    }
+    document.getElementById("demo").innerHTML = greeting;
+</script>
 
 </body>
 </html>
+
+
+
+
+
+

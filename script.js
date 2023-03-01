@@ -650,3 +650,35 @@ var borlabsCookieContentBlocker = {"facebook": {"id": "facebook","global": funct
 };
 
 BorlabsCookieInitCheck();});
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+
+// (function ($) {
+// 	"use strict";
+
+// 	jQuery(window).load(function () {
+
+// 		/* Sticky Header
+// 		============================*/
+// 		$(window).on('scroll', function () {
+// 			if ($(this).scrollTop() > 20) {
+// 				$('.header-fixed').addClass("sticky");
+// 			} else {
+// 				$('.header-fixed').removeClass("sticky");
+// 			}
+// 		});
+// 	});
+// }(jQuery));
