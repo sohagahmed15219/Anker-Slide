@@ -3,13 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/css2?family=Livvic:wght@200;300;400;500;600;700;900&family=Outfit:wght@700&family=Saira:wght@300;400;500;600&display=swap" rel="stylesheet">
-<link rel='stylesheet' id='mork-main-style-css' href='style.css' media='all' />
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
-<link rel='stylesheet' id='mork-style-css' href='https://moerk.de/wp-content/themes/mork/style.css' media='all' />
-<link rel='stylesheet' id='mork-custom-style-css' href='https://moerk.de/wp-content/themes/mork/styles/moerkDmCustom.css' media='all' />
-<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 <body id="main-content" class="home page-template-default page page-id-8" data-aos-easing="ease-out-back" data-aos-duration="1000" data-aos-delay="0">
@@ -18,7 +11,7 @@
 <div class="scrollable"> 
         <div id="fullpage">
             <div data-anchor="first-screen" class="section home-screen">
-                <div class="home-screen__image" style="background-image: url(/images/Anker-Hero-Image.png)">
+                <div class="home-screen__image" style="background-image: url(/assets/images/Anker-Hero-Image.png)">
                     <div class="home-screen__content d-flex">
                         <div>
                             <h2 id="demo">Guten Morgen!</h2>
@@ -56,18 +49,18 @@
                     </div>
                 </div>
                 <div class="home-slider__pattern home-slider__pattern--desc">
-                    <img class='img-1' src="/images/Vector (1).png" alt="">
-                    <img class='img-2' src="/images/Vector (2).png" alt="">
-                    <img class='img-3' src="/images/Vector (3).png" alt="">
+                    <img class='img-1' src="/assets/images/Vector (1).png" alt="">
+                    <img class='img-2' src="/assets/images/Vector (2).png" alt="">
+                    <img class='img-3' src="/assets/images/Vector (3).png" alt="">
                 </div>
                 <div class="home-slider">
 					    <div class="home-slider__item">
                             <div class="d-flex flex-lg-row flex-column">
                                 <div class="home-slider__image order-lg-0 order-1">
-                                    <div style="background-image: url(/images/1.png)"></div>
+                                    <div style="background-image: url(/assets/images/1.png)"></div>
                                     <div class="d-lg-none d-block">
                                         <div class="home-slider__pattern home-slider__pattern--mobile"></div>
-                                        <img decoding="async" src="/images/Group1.png" alt="">
+                                        <img decoding="async" src="/assets/images/Group1.png" alt="">
                                     </div>
                                 </div>
                                 <div class="home-slider__item-content d-xl-none d-lg-none d-md-block">
@@ -98,10 +91,10 @@
 					    <div class="home-slider__item">
                             <div class="d-flex flex-lg-row flex-column">
                                 <div class="home-slider__image order-lg-0 order-1">
-                                    <div style="background-image: url(/images/2.png)"></div>
+                                    <div style="background-image: url(/assets/images/2.png)"></div>
                                     <div class="d-lg-none d-block">
                                         <div class="home-slider__pattern home-slider__pattern--mobile"></div>
-                                        <img decoding="async" src="/images/Group2.png" alt="">
+                                        <img decoding="async" src="/assets/images/Group2.png" alt="">
                                     </div>
                                 </div>
                                 <div class="home-slider__item-content d-xl-none d-lg-none d-md-block">
@@ -131,10 +124,10 @@
 					    <div class="home-slider__item">
                             <div class="d-flex flex-lg-row flex-column">
                                 <div class="home-slider__image order-lg-0 order-1">
-                                    <div style="background-image: url(/images/3.png)"></div>
+                                    <div style="background-image: url(/assets/images/3.png)"></div>
                                     <div class="d-lg-none d-block">
                                         <div class="home-slider__pattern home-slider__pattern--mobile"></div>
-                                        <img decoding="async" src="/images/Group3.png" alt="">
+                                        <img decoding="async" src="/assets/images/Group3.png" alt="">
                                     </div>
                                 </div>
                                 <div class="home-slider__item-content d-xl-none d-lg-none d-md-block">
@@ -164,10 +157,10 @@
 					    <div class="home-slider__item">
                             <div class="d-flex flex-lg-row flex-column">
                                 <div class="home-slider__image order-lg-0 order-1">
-                                    <div style="background-image: url(/images/4.png)"></div>
+                                    <div style="background-image: url(/assets/images/4.png)"></div>
                                     <div class="d-lg-none d-block">
                                         <div class="home-slider__pattern home-slider__pattern--mobile"></div>
-                                        <img decoding="async" src="/images/Group4.png" alt="">
+                                        <img decoding="async" src="/assets/images/Group4.png" alt="">
                                     </div>
                                 </div>
                                 <div class="home-slider__item-content d-xl-none d-lg-none d-md-block">
@@ -197,10 +190,10 @@
 					    <div class="home-slider__item">
                             <div class="d-flex flex-lg-row flex-column">
                                 <div class="home-slider__image order-lg-0 order-1">
-                                    <div style="background-image: url(/images/5.png)"></div>
+                                    <div style="background-image: url(/assets/images/5.png)"></div>
                                     <div class="d-lg-none d-block">
                                         <div class="home-slider__pattern home-slider__pattern--mobile"></div>
-                                        <img decoding="async" src="/images/Group5.png" alt="">
+                                        <img decoding="async" src="/assets/images/Group5.png" alt="">
                                     </div>
                                 </div>
                                 <div class="home-slider__item-content d-xl-none d-lg-none d-md-block">
@@ -235,27 +228,27 @@
                   <div class="row text-align-">
                     <div class="single-image" data-wow-delay="0.3s">
                       <div class="client-item-wrapper">
-                        <img class="img-fluid" src="/images/Logo-1.png" alt="">
+                        <img class="img-fluid" src="/assets/images/Logo-1.png" alt="">
                       </div>
                     </div>
                     <div class="single-image" data-wow-delay="0.6s">
                       <div class="client-item-wrapper">
-                        <img class="img-fluid" src="/images/Logo-2.png" alt="">
+                        <img class="img-fluid" src="/assets/images/Logo-2.png" alt="">
                       </div>
                     </div>
                     <div class="single-image" data-wow-delay="0.9s">
                       <div class="client-item-wrapper">
-                        <img class="img-fluid" src="/images/Logo-3.png" alt="">
+                        <img class="img-fluid" src="/assets/images/Logo-3.png" alt="">
                       </div>
                     </div>
                     <div class="single-image" data-wow-delay="1.2s">
                       <div class="client-item-wrapper">
-                        <img class="img-fluid"  src="/images/Logo-4.png" alt="">
+                        <img class="img-fluid"  src="/assets/images/Logo-4.png" alt="">
                       </div>
                     </div>
                     <div class="single-image" data-wow-delay="1.2s">
                       <div class="client-item-wrapper">
-                        <img class="img-fluid"  src="/images/Logo-5.png" alt="">
+                        <img class="img-fluid"  src="/assets/images/Logo-5.png" alt="">
                       </div>
                     </div>
                   </div>
@@ -353,7 +346,7 @@
                 <div class="footer-div">
                    <div class="col-lg-3 col-md-6">
                       <div class="single-footer footer-logo">
-                         <img src="/images/Logo.png" alt="">
+                         <img src="/assets/images/Logo.png" alt="">
                          <div class="row copyright">
                             <div class="">
                                <p>&copy; Copyright 2023 Anker. Alle Rechte vorbehalten.</p>
@@ -416,7 +409,7 @@
         </div>    
 </div>
 	
-<script src='script.js' id=''></script>
+<script src='/assets/js/script.js' id=''></script>
 <script>
     let li = document.querySelectorAll(".faq-text li");
     for (var i = 0; i < li.length; i++) {
